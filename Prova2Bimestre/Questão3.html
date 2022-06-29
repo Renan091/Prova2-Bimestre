@@ -1,0 +1,8 @@
+<script>
+    let calSalario = (base = 1200, gratificacao = 0, ajuste = 1.1) => {
+        return `Salário: ${(base * ajuste) + gratificacao}`;
+      };
+      console.log(calSalario());
+      console.log(calSalario(1300));
+      console.log(calSalario(1400,100,1.2));
+</script>

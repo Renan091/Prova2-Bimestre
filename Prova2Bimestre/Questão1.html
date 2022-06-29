@@ -1,0 +1,19 @@
+<script>
+    let website = {
+        titulo:"Sistema de Avaliação Online",
+        url: "https://www.sistemaOnlineAv.com.br",  
+        tags: ["Biologia", "História", "Matemática", "Português"], 
+        disciplinasTecnicas:{ 
+            adm: ["Direito do Consumidor", "Marketing"],
+            inf: ["HTML", "PHP","JavaScript"],
+            enf: ["Saúde da Mulher", "Primeiro Socorros"]},
+        escola:function(nome){
+            console.log(nome)
+            }
+        }
+        console.log(website.titulo);
+        console.log(website.url);
+        console.log(website.tags[2]);
+        console.log(website.disciplinasTecnicas.adm[1]);
+        website.escola("EEEP Amélia Figueiredo");
+</script>
